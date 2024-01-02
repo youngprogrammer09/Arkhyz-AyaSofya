@@ -119,25 +119,16 @@
                 <div class="col-md-6 mb-5 mb-md-0" data-aos="fade-up" data-aos-delay="100">
                   
                   <form action="sender.php" method="POST">
-                    <div class="form-group">
-                      <label for="user_name">Введите ваше имя *</label>
-                      <input type="text" class="form-control" id="user_name" placeholder="Например, Иван">
-                    </div>
-                    <div class="form-group">
-                      <label for="user_email">Введите вашу почту *</label>
-                      <input type="text" class="form-control" id="user_email" placeholder="Например, mail@mail.ru">
-                    </div>
-                    <div class="form-group">
-                      <label for="user_phone">Введите ваш номер телефона</label>
-                      <input type="text" class="form-control" id="user_phone" placeholder="Например, +79002003030">
-                    </div>
-                    <div class="form-group">
-                      <label for="user_message">Введите ваше сообщение *</label>
-                      <textarea name="user_message" class="form-control" id="user_message" cols="30" rows="10"></textarea>
-                    </div>
-                    <div class="form-group">
-                      <input type="submit" value="Отправить форму" class="btn btn-black px-5 text-white">
-                    </div>
+                    <form action="sender.php" method="post">
+                      <input type="text" class="name" name="name" placeholder="Имя" required>
+                      <input type="text" name="surname" placeholder="Фамилия" required>
+                      <input type="text" class="phone" name="phone" placeholder="Телефон" required>
+                      <input type="email" name="email" placeholder="Email" required>
+                      <textarea name="text" id="" cols="30" rows="10" placeholder="Введите текст"></textarea>
+                      <button type="button" class="send-form">Отправить форму</button>
+                      <div class="status"></div>
+                  </form>
+               
                   </form>
                 </div>
                 <div class="col-md-4 ml-auto"  data-aos="fade-up" data-aos-delay="200">
