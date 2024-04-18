@@ -2,16 +2,35 @@
 * Template Name: Шале Пихта
 * Template Author: Danil German
 */
-body {
-  font-family: "Roboto", sans-serif;
-  background-color: #fff;
-  font-weight: 300;
-  color: rgba(0, 0, 0, 0.5);
-  color: #707070;
-  line-height: 1.7;
-  overflow-x: hidden;
+
+
+
+.map {
   position: relative;
+  background-color: #333;
+  height: 600px;
+  width: 600px;
+  margin-top: -690px;
+  margin-left: 200px;
+  
 }
+
+
+.section {
+	position: relative;
+	height: 70vh;
+}
+
+.section .section-center {
+	position: absolute;
+	top: 30%;
+	left: 9%;
+	right: 0;
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+
 
 body:before {
   content: "";
@@ -70,6 +89,81 @@ a, a:hover {
   clear: both;
   width: 100%;
 }
+
+/* MK Code */
+.untree_co--site-nav{
+  background-color: #fff;
+}
+.site-nav-ul li a{
+  color: #000 !important;
+}
+.site-nav-ul li.active a::before{
+  background-color: #ff896b !important;
+}
+
+/* map */
+.mk_container{
+  display: flex;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#map{
+  margin: 0;
+  width: 100%;
+}
+.mk_left{
+  padding: 0 15px;
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mk_right{
+  width: 40%;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  flex-direction: column;
+}
+
+@media (max-width: 1200px) {
+  .mk_container{
+    justify-content: center;
+  }
+  .mk_left{
+    width: 50%;
+  }
+}
+@media (max-width: 992px) {
+  .mk_container{
+    justify-content: center;
+    flex-direction: column-reverse;
+  }
+  .mk_left{
+    width: 100%;
+    margin-top: 50px;
+  }
+}
+@media (max-width: 575px) {
+  .mk_container{
+    justify-content: center;
+    flex-direction: column-reverse;
+  }
+  .mk_left{
+    width: 100%;
+    margin-top: 50px;
+  }
+  .mk_right{
+    margin-right: 50px;
+  }
+  #map{
+    height: 400px;
+  }
+}
+
+/* MK Code */
 
 @media (max-width: 991.98px) {
   .untree_co--site-section {
