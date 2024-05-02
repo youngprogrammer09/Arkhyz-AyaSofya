@@ -1,0 +1,46 @@
+.slick-dots li.slick-active button:before{
+    color: #ff896b !important;
+    font-size: 10px;
+}
+.slick-dots{
+    bottom: -50px;
+}
+.slick_house_image{
+    width: 100%;
+    height: 700px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.first_house_1{background-image: url("https://thumbor.forbes.com/thumbor/fit-in/900x510/https://www.forbes.com/home-improvement/wp-content/uploads/2022/07/download-23.jpg");}
+.first_house_2{background-image: url("https://d1ja9tyo8nbkbc.cloudfront.net/45866257_S0020/S0020/S0020-R0100/NWM2077159/NWM136331096.jpg?version=1687407024&width=1024");}
+.first_house_3{background-image: url("https://www.tennessean.com/gcdn/presto/2019/10/11/PNAS/adf1101a-0f8c-404f-9df3-5837bf387dfd-1_Exterior_House_Beautiful_Whole_Home_Concept_House_Castle_Homes_Photo_Reed_Brown_Photography.jpg?crop=5619,3161,x0,y104&width=3200&height=1801&format=pjpg&auto=webp");}
+.first_house_4{background-image: url("https://img.onmanorama.com/content/dam/mm/en/lifestyle/decor/images/2023/6/1/house-middleclass.jpg");}
+.first_house_5{background-image: url("https://www.redfin.com/blog/wp-content/uploads/2021/08/220-Maryland-Ave-21122-1.jpg");}
+
+.second_house_1{background-image: url("https://thumbor.forbes.com/thumbor/fit-in/900x510/https://www.forbes.com/home-improvement/wp-content/uploads/2022/07/download-23.jpg");}
+.second_house_2{background-image: url("https://d1ja9tyo8nbkbc.cloudfront.net/45866257_S0020/S0020/S0020-R0100/NWM2077159/NWM136331096.jpg?version=1687407024&width=1024");}
+.second_house_3{background-image: url("https://www.tennessean.com/gcdn/presto/2019/10/11/PNAS/adf1101a-0f8c-404f-9df3-5837bf387dfd-1_Exterior_House_Beautiful_Whole_Home_Concept_House_Castle_Homes_Photo_Reed_Brown_Photography.jpg?crop=5619,3161,x0,y104&width=3200&height=1801&format=pjpg&auto=webp");}
+.second_house_4{background-image: url("https://img.onmanorama.com/content/dam/mm/en/lifestyle/decor/images/2023/6/1/house-middleclass.jpg");}
+.second_house_5 {background-image: url("https://www.redfin.com/blog/wp-content/uploads/2021/08/220-Maryland-Ave-21122-1.jpg");}
+
+.third_house_1{background-image: url("https://thumbor.forbes.com/thumbor/fit-in/900x510/https://www.forbes.com/home-improvement/wp-content/uploads/2022/07/download-23.jpg");}
+.third_house_2{background-image: url("https://d1ja9tyo8nbkbc.cloudfront.net/45866257_S0020/S0020/S0020-R0100/NWM2077159/NWM136331096.jpg?version=1687407024&width=1024");}
+.third_house_3{background-image: url("https://www.tennessean.com/gcdn/presto/2019/10/11/PNAS/adf1101a-0f8c-404f-9df3-5837bf387dfd-1_Exterior_House_Beautiful_Whole_Home_Concept_House_Castle_Homes_Photo_Reed_Brown_Photography.jpg?crop=5619,3161,x0,y104&width=3200&height=1801&format=pjpg&auto=webp");}
+.third_house_4{background-image: url("https://img.onmanorama.com/content/dam/mm/en/lifestyle/decor/images/2023/6/1/house-middleclass.jpg");}
+.third_house_5 {background-image: url("https://www.redfin.com/blog/wp-content/uploads/2021/08/220-Maryland-Ave-21122-1.jpg");}
+
+.fourth_house_1{background-image: url("https://thumbor.forbes.com/thumbor/fit-in/900x510/https://www.forbes.com/home-improvement/wp-content/uploads/2022/07/download-23.jpg");}
+.fourth_house_2{background-image: url("https://d1ja9tyo8nbkbc.cloudfront.net/45866257_S0020/S0020/S0020-R0100/NWM2077159/NWM136331096.jpg?version=1687407024&width=1024");}
+.fourth_house_3{background-image: url("https://www.tennessean.com/gcdn/presto/2019/10/11/PNAS/adf1101a-0f8c-404f-9df3-5837bf387dfd-1_Exterior_House_Beautiful_Whole_Home_Concept_House_Castle_Homes_Photo_Reed_Brown_Photography.jpg?crop=5619,3161,x0,y104&width=3200&height=1801&format=pjpg&auto=webp");}
+.fourth_house_4{background-image: url("https://img.onmanorama.com/content/dam/mm/en/lifestyle/decor/images/2023/6/1/house-middleclass.jpg");}
+.fourth_house_5 {background-image: url("https://www.redfin.com/blog/wp-content/uploads/2021/08/220-Maryland-Ave-21122-1.jpg");}
+
+@media (max-width: 767px) {
+    .slick_house_image{
+        height: 500px;
+    }
+    .slick-dots{
+        bottom: -30px;
+    }
+}
