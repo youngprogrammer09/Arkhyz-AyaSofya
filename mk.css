@@ -1,0 +1,112 @@
+.mk_vcol{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mk_descr{
+    width: 500px;
+    height: 700px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ff896b26;
+    border-radius: 10px;
+}
+.mk_l{margin-left: 50px;}
+.mk_r{
+    float: right;
+    margin-right: 50px;
+}
+.mk_top{
+    width: 100%;
+    padding: 40px;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+}
+.mk_title{
+    font-weight: bold;
+    font-size: 30px;
+}
+.mk_subtitle{
+    margin-top: 5px;
+}
+.mk_about{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: center;
+}
+.mk_item{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    margin: 0 10px 10px 0;
+    border-radius: 5px;
+}
+.mk_item_name{
+    font-size: 18px;
+    margin-left: 5px;
+}
+.mk_bottom{
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+}
+.mk_price{
+    margin: 0 0 40px 40px;
+    font-size: 30px;
+    color: #ff896b;
+    font-weight: bold;
+}
+.mk_button{
+    width: 100%;
+    padding: 20px 0;
+    color: #fff !important;
+    background-color: #ff896b;
+    font-weight: bold;
+    border: 0;
+    border-radius: 0 0 10px 10px;
+    text-decoration: none;
+    text-align: center;
+}
+.mk_center_le{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media (max-width: 1200px) {
+    .mk_vcol{
+        flex-direction: column;
+    }
+    .mk_vcol_2{
+        flex-direction: column-reverse;
+    }
+    .mk_descr{
+        margin: 0;
+        float: none;
+        height: auto;
+
+    }
+}
+@media (max-width: 767px) {
+    .mk_top{
+        padding: 20px;
+    }
+    .mk_item{
+        margin: 0 5px 5px 0;
+    }
+    .mk_price{
+        margin: 0 0 20px 20px;
+    }
+    .mk_vcol_2{
+        flex-direction: column;
+    }
+}
