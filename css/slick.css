@@ -12,18 +12,17 @@
     background-repeat: no-repeat;
     background-position: center;
 }
-.first_house_1{background-image: url("/images/drive/first_house1.jpg");}
-.first_house_2{background-image: url("/images/drive/first_house2.jpg");}
-.first_house_3{background-image: url("/images/drive/first_house4.jpg");}
-.first_house_4{background-image: url("/images/drive/first_house3.jpg");}
-.first_house_5{background-image: url("/images/drive/first_house5.jpg");}
+.first_house_1{background-image: url("../images/drive/first-house1.jpg");}
+.first_house_2{background-image: url("../images/drive/first_house2.jpg");}
+.first_house_3{background-image: url("../images/drive/first_house3.jpg");}
+.first_house_4{background-image: url("../images/drive/first_house4.jpg");}
+.first_house_5{background-image: url("../images/drive/first_house5.jpg");}
 
-.second_house_1{background-image: url("/images/drive/second_house1.jpg");}
-.second_house_2{background-image: url("/images/drive/second_house2.jpg");}
-.second_house_3{background-image: url("/images/drive/second_house3.jpg");}
+.second_house_1{background-image: url("../images/drive/first_house5.jpg");}
+.second_house_2{background-image: url("../images/drive/first_house5.jpg");}
+.second_house_3{background-image: url("../images/drive/first_house5.jpg");}
 .second_house_4{background-image: url("/images/drive/second_house4.jpg");}
-.second_house_5 {background-image: url("/images/drive/second_house5.jpg");}
-
+.second_house_5 {background-image: url("../images/drive/first_house5.jpg");}
 .third_house_1{background-image: url("/images/drive/third_house1.jpg");}
 .third_house_2{background-image: url("/images/drive/third_house2.jpg");}
 .third_house_3{background-image: url("/images/drive/third_house3.jpg");}
